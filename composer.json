@@ -2,6 +2,9 @@
 	"name": "npmweb/library-template",
 	"description": "Template for PHP libraries",
 	"type": "library",
+	"require-dev": {
+		"mockery/mockery": "dev-master@dev"
+	},
 	"autoload": {
 		"psr-0": {
 			"NpmWeb\\MyPackageName\\": "src"
